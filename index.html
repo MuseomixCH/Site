@@ -23,8 +23,60 @@
 		<![endif]-->
 	</head>
 	
-	<body style="background-color: #FFEC00; padding: 10px;">
+	<body style="background-color: #FFEC00; padding: 10px; padding-top: 70px;">
 		
+		<!-- Navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="http://leman.museomix.ch">Muséomix Léman</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <!-- Left -->
+					<ul class="nav navbar-nav">
+						<li><a href="#presentations">Présentations</a></li>
+						<li><a href="#social">Réseaux sociaux</a></li>
+		      </ul>
+					
+					<!-- Right -->
+		      <ul class="nav navbar-nav navbar-right">
+						<!-- Contacts -->
+		        <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacts <b class="caret"></b></a>
+		          <ul class="dropdown-menu">
+								<li><a href="mailto:leman[at]museomix.ch">leman[at]museomix.ch</a></li>
+								<li class="divider"></li>
+							  <li><a href="https://groups.google.com/forum/#!forum/museomixleman">Google Group</a></li>
+							  <li><a href="https://twitter.com/museomixleman">Twitter</a></li>
+							  <li><a href="https://www.facebook.com/museomixleman">Facebook</a></li>
+		          </ul>
+		        </li>
+						
+						<!-- Documents -->
+		        <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
+		          <ul class="dropdown-menu">
+		            <li><a target="_blank" href="pdf/Museomix-communique-presse.pdf">Communiqué de presse du 08.04.2014</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#"><a target="_blank" href="pdf/timeline-museomix-2014.pdf">Timeline 2014</a></a></li>
+		          </ul>
+		        </li>
+						
+		        <li class="active"><a href="http://www.museomix.org/">museomix.org</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+			
 		<!-- Header -->
 		<div class="row text-center">
 			<div class="col-md-12">
@@ -43,23 +95,9 @@
 		
 		<!-- Presentations -->
 		<div class="row text-center">
-			
-			<!-- Links -->
-			<div class="col-md-2 text-left">
-				<h4>Liens:</h4>
-				<ul class="list-group">
-				  <li class="list-group-item"><a href="http://www.museomix.org/">museomix.org</a></li>
-					<li class="list-group-item"><a target="_blank" href="pdf/Museomix-communique-presse.pdf">Communiqué de presse</a></li>
-					<li class="list-group-item"><a target="_blank" href="pdf/timeline-museomix-2014.pdf">Timeline 2014</a></li>
-				  <li class="list-group-item"><a href="mailto:leman[at]museomix.ch">leman[at]museomix.ch</a></li>
-				  <li class="list-group-item"><a href="https://groups.google.com/forum/#!forum/museomixleman">Google Group</a></li>
-				  <li class="list-group-item"><a href="https://twitter.com/museomixleman">Twitter</a></li>
-				  <li class="list-group-item"><a href="https://www.facebook.com/museomixleman">Facebook</a></li>
-				</ul>
-			</div>
-			
+			<a id="presentations"></a>
 			<!-- Muséomix -->
-			<div class="col-md-10 text-left">
+			<div class="col-md-12 text-left">
 				<h4>Présentations:</h4>
 				<div class="row text-center">
 					<div class="col-md-6">
@@ -74,12 +112,9 @@
 		
 		<!-- Content -->
 		<div class="row text-center">
-			
-			<!-- Empty -->
-			<div class="col-md-2 text-left"></div>
-			
+			<a id="social"></a>
 			<!-- Social networks -->
-			<div class="col-md-10 text-left">
+			<div class="col-md-12 text-left">
 				<h4>Réseaux sociaux:</h4>
 				<div class="row text-center">
 					
@@ -122,6 +157,11 @@
 			</div>
 			<div class="col-md-2"></div>
 		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
 		
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
