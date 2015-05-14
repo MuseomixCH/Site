@@ -1,4 +1,4 @@
-MUSEOMIX LEMAN - Site
+MUSEOMIX CH - Site
 =====================
 
-Code source du site web http://leman.museomix.ch
+Code source du site web http://www.museomix.ch
