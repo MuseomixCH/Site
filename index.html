@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="fr">
+<html lang="fr" data-i18n="[lang]language.current.lower">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
-    <title lang="fr">MUSEOMIX CH</title>
+    <title lang="fr" data-i18n="[lang]language.current.lower">MUSEOMIX CH</title>
     
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -62,10 +62,10 @@
           <!-- Left -->
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FR<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-i18n="language.current.upper">FR</span><span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="index_de.html">DE</a></li>
-                <li><a href=".">FR</a></li>
+                <li><a href="?lang=de" data-i18n="language.german">DE</a></li>
+                <li><a href="?lang=fr" data-i18n="language.french">FR</a></li>
               </ul>
             </li>
             <li><a href="#informations">Informations</a></li>
@@ -371,6 +371,7 @@
         useLocalStorage: false,
         debug: true
       }, function(t) {
+        $('html').i18n();
       });
     </script>
     
