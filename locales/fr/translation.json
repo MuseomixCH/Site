@@ -12,5 +12,126 @@
     },
     "french": "FR",
     "german": "DE"
+  },
+  "navbar": {
+    "information": "Informations",
+    "social": "Réseaux sociaux",
+    "2014": "2014",
+    "contact": {
+      "title": "Contacts"
+    },
+    "documents": {
+      "title": "Documents",
+      "mediarelease": "Communiqué de presse",
+      "media": "Visuels pour la presse",
+      "20150515": {
+        "title": "Communiqué de presse du 15.05.2015",
+        "link": "pdf/museomix-communique-presse-20150615-fr.pdf"
+      },
+      "20150510": {
+        "title": "Communiqué de presse du 10.05.2015",
+        "link": "pdf/museomix-communique-presse-20150610-fr.pdf"
+      },
+      "call2015": {
+        "title": "Appel à projets 2015",
+        "link": "pdf/appel-a-projet-museomix-2015.pdf"
+      },
+      "2014": {
+        "title": "Museomix 2014",
+        "flyer": {
+          "title": "Flyer: Découvrez un laboratoire vivant au cœur du musée!",
+          "link": "pdf/flyer-museomix-rectoverso-small-web.pdf"
+        },
+        "pro": {
+          "title": "Invitation à la journée pour les professionnels",
+          "link": "pdf/invitation-journee-pro-museomix.pdf"
+        },
+        "info": {
+          "title": "Les infos pratiques pour tout comprendre",
+          "link": "pdf/kit-info-museomixleman.pdf"
+        },
+        "inquiry": {
+          "title": "Enquête auprès des publics de Museomix",
+          "link": "http://fr.slideshare.net/BouananiLeila/evaluation2014"
+        }
+      },
+      "20141109": {
+        "title": "Communiqué de presse du 09.11.2014",
+        "link": "pdf/museomix-communique-presse-20141109.pdf",
+        "media": "pdf/museomix-visuels-presse-20141109.pdf"
+      },
+      "20141106": {
+        "title": "Communiqué de presse de novembre 2014",
+        "link": "pdf/museomix-communique-presse-20141106.pdf"
+      },
+      "20140610": {
+        "title": "Communiqué de presse du 10.06.2014",
+        "link": "pdf/museomix-communique-presse-20140610.pdf",
+        "media": "pdf/museomix-visuels-presse-20140610.pdf"
+      },
+      "20140512": {
+        "title": "Communiqué de presse du 12.05.2014",
+        "link": "pdf/museomix-communique-presse-20140512.pdf"
+      },
+      "20140408": {
+        "title": "Communiqué de presse du 08.04.2014",
+        "link": "pdf/museomix-communique-presse-20140408.pdf"
+      },
+      "timeline": {
+        "2015": {
+          "title": "Timeline 2015",
+          "link": "pdf/timeline-museomix-2015.pdf"
+        },
+        "2014": {
+          "title": "Timeline 2014",
+          "link": "pdf/timeline-museomix-2014.pdf"
+        }
+      },
+      "society" : {
+        "title": "Association",
+        "statutes": {
+          "title": "Statuts",
+          "link": "pdf/museomixch-statuts.pdf"
+        },
+        "20150504": {
+          "title": "PV du 04.05.2015",
+          "link": "pdf/pv-museomixch-20150504.pdf"
+        },
+        "20140325": {
+          "title": "PV du 25.03.2014",
+          "link": "pdf/pv-museomixleman-20140325.pdf"
+        },
+        "inscription": {
+          "title": "Talon d'inscription",
+          "link": "pdf/museomixch-talon-inscription.pdf"
+        }
+      }
+    },
+    "mfk": {
+      "title": "MfK",
+      "home": {
+        "title": "Accueil",
+        "link": "http://www.mfk.ch/"
+      }
+    },
+    "museomix_org": {
+      "title": "museomix.org",
+      "home": {
+        "title": "Accueil",
+        "link": "http://www.museomix.org/"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "link": "http://www.museomix.org/actualites/"
+    },
+    "geneve2014": {
+      "title": "Genève 2014",
+      "link": "http://www.museomix.org/localisation/geneve-2014/"
+    },
+    "leman": {
+      "title": "Blog @Léman",
+      "link": "http://www.museomix.org/category/leman/"
+    }
   }
 }
