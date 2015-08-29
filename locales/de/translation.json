@@ -133,5 +133,54 @@
         "link": "http://www.museomix.org/category/leman/"
       }
     }
-  }
+  },
+  "description": "Museomix CH: Interdisziplinäre Teams verwandeln während 3 Tagen ein Museum in ein Ideenlabor",
+  "main": "Vom 6.-9. November 2015 findet Museomix im <br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museum für Kommunikation</a> in Bern statt",
+  "information": {
+    "theme": {
+      "title": "Museomix Bern 2015 - Die Themen"
+    },
+    "pratical": {
+      "title": "Praktische Informationen",
+      "content": "1 Museum - 1 Community - 3 Tage - 1 Werkzeugkasten",
+      "link": "pdf/kit-museomix-DE.pdf"
+    }
+  },
+  "social": {
+    "title": "Soziale Netwerke"
+  },
+  "2014": {
+    "title": "Genf 2014 - Das Ereignis nochmals erleben",
+    "video": "Alle Videos",
+    "blog": "Blog",
+    "prototype": "Die Prototypen:"
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "content": "Melden Sie sich für den Museomix CH-Newsletter an.",
+    "email": {
+      "label": "E-Mail",
+      "placeholder": "E-Mail einfügen (Pflichtfeld)"
+    },
+    "firstname": {
+      "label": "Vorname",
+      "placeholder": "Vorname einfügen"
+    },
+    "lastname": {
+      "label": "Nachname",
+      "placeholder": "Nachname einfügen"
+    },
+    "language": "Sprache:",
+    "submit": "anmelden"
+  },
+  "share": {
+    "title": "Teilen"
+  },
+  "partners": {
+    "title": "Unterstützt durch",
+    "em": {
+      "image": "resources/engagement-m-d-200px.png"
+    }
+  },
+  "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> von <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Vereins Museomix CH</a> ist lizenziert unter einer <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.<br />Beruht auf dem Werk unter <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org\" rel=\"dct:source\">http://www.museomix.org</a>.<br />Über diese Lizenz hinausgehende Erlaubnisse können Sie unter <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"info[at]museomix.ch\" rel=\"cc:morePermissions\">info[at]museomix.ch</a> erhalten."
 }
