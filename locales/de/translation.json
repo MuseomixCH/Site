@@ -1,0 +1,186 @@
+{
+  "title": "MUSEOMIX CH",
+  "meta": {
+    "description": "Museomix CH",
+    "keywords": "museomix,leman,ch",
+    "author": "Vereins Museomix CH"
+  },
+  "language": {
+    "current": {
+      "upper": "DE",
+      "lower": "de"
+    },
+    "french": "FR",
+    "german": "DE"
+  },
+  "navbar": {
+    "information": "Information",
+    "social": "Soziale Netwerke",
+    "2014": "2014",
+    "contact": {
+      "title": "Kontakt"
+    },
+    "documents": {
+      "title": "Dokumente",
+      "mediarelease": "Medienmitteilung",
+      "media": "Pressebilder",
+      "20150515": {
+        "title": "Medienmitteilung vom 15.05.2015",
+        "link": "pdf/museomix-communique-presse-20150615-de.pdf"
+      },
+      "20150510": {
+        "title": "Medienmitteilung vom 10.05.2015",
+        "link": "pdf/museomix-communique-presse-20150610-de.pdf"
+      },
+      "call2015": {
+        "title": "Projektaufruf 2015",
+        "link": "pdf/appel-a-projet-museomix-2015.pdf"
+      },
+      "2014": {
+        "title": "Museomix 2014",
+        "flyer": {
+          "title": "Flyer: Entdecken Sie ein dynamisches Labor im Herzen des Museums!",
+          "link": "pdf/flyer-museomix-rectoverso-small-web.pdf"
+        },
+        "pro": {
+          "title": "Einladung zum Profi-Tag",
+          "link": "pdf/invitation-journee-pro-museomix.pdf"
+        },
+        "info": {
+          "title": "Praktische Informationen",
+          "link": "pdf/kit-info-museomixleman.pdf"
+        },
+        "inquiry": {
+          "title": "Publikumsbefragung während Museomix",
+          "link": "http://de.slideshare.net/BouananiLeila/evaluation2014"
+        }
+      },
+      "20141109": {
+        "title": "Medienmitteilung vom 09.11.2014",
+        "link": "pdf/museomix-communique-presse-20141109.pdf",
+        "media": "pdf/museomix-visuels-presse-20141109.pdf"
+      },
+      "20141106": {
+        "title": "Medienmitteilung November 2014",
+        "link": "pdf/museomix-communique-presse-20141106.pdf"
+      },
+      "20140610": {
+        "title": "Medienmitteilung vom 10.06.2014",
+        "link": "pdf/museomix-communique-presse-20140610.pdf",
+        "media": "pdf/museomix-visuels-presse-20140610.pdf"
+      },
+      "20140512": {
+        "title": "Medienmitteilung vom 12.05.2014",
+        "link": "pdf/museomix-communique-presse-20140512.pdf"
+      },
+      "20140408": {
+        "title": "Medienmitteilung vom 08.04.2014",
+        "link": "pdf/museomix-communique-presse-20140408.pdf"
+      },
+      "timeline": {
+        "2015": {
+          "title": "Timeline 2015",
+          "link": "pdf/timeline-museomix-2015.pdf"
+        },
+        "2014": {
+          "title": "Timeline 2014",
+          "link": "pdf/timeline-museomix-2014.pdf"
+        }
+      },
+      "society" : {
+        "title": "Verein",
+        "statutes": {
+          "title": "Statuten",
+          "link": "pdf/museomixch-statuts.pdf"
+        },
+        "20150504": {
+          "title": "Protokoll vom 04.05.2015",
+          "link": "pdf/pv-museomixch-20150504.pdf"
+        },
+        "20140325": {
+          "title": "Protokoll vom 25.03.2014",
+          "link": "pdf/pv-museomixleman-20140325.pdf"
+        },
+        "inscription": {
+          "title": "Anmeldetalon",
+          "link": "pdf/museomixch-talon-inscription.pdf"
+        }
+      }
+    },
+    "mfk": {
+      "title": "MfK",
+      "home": {
+        "title": "Webseite",
+        "link": "http://www.mfk.ch/"
+      }
+    },
+    "museomix_org": {
+      "title": "museomix.org",
+      "home": {
+        "title": "Webseite",
+        "link": "http://www.museomix.org/"
+      },
+      "blog": {
+        "title": "Blog",
+        "link": "http://www.museomix.org/actualites/"
+      },
+      "geneve2014": {
+        "title": "Genf 2014",
+        "link": "http://www.museomix.org/localisation/geneve-2014/"
+      },
+      "leman": {
+        "title": "Blog @Léman",
+        "link": "http://www.museomix.org/category/leman/"
+      }
+    }
+  },
+  "description": "Museomix CH: Interdisziplinäre Teams verwandeln während 3 Tagen ein Museum in ein Ideenlabor",
+  "main": "Vom 6.-9. November 2015 findet Museomix im <br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museum für Kommunikation</a> in Bern statt",
+  "information": {
+    "theme": {
+      "title": "Museomix Bern 2015 - Die Themen"
+    },
+    "pratical": {
+      "title": "Praktische Informationen",
+      "content": "1 Museum - 1 Community - 3 Tage - 1 Werkzeugkasten",
+      "link": "pdf/kit-museomix-DE.pdf"
+    }
+  },
+  "social": {
+    "title": "Soziale Netwerke"
+  },
+  "2014": {
+    "title": "Genf 2014 - Das Ereignis nochmals erleben",
+    "video": "Alle Videos",
+    "blog": "Blog",
+    "prototype": "Die Prototypen:"
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "content": "Melden Sie sich für den Museomix CH-Newsletter an.",
+    "email": {
+      "label": "E-Mail",
+      "placeholder": "E-Mail einfügen (Pflichtfeld)"
+    },
+    "firstname": {
+      "label": "Vorname",
+      "placeholder": "Vorname einfügen"
+    },
+    "lastname": {
+      "label": "Nachname",
+      "placeholder": "Nachname einfügen"
+    },
+    "language": "Sprache:",
+    "submit": "anmelden"
+  },
+  "share": {
+    "title": "Teilen"
+  },
+  "partners": {
+    "title": "Unterstützt durch",
+    "em": {
+      "image": "resources/engagement-m-d-200px.png"
+    }
+  },
+  "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> von <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Vereins Museomix CH</a> ist lizenziert unter einer <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.<br />Beruht auf dem Werk unter <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org\" rel=\"dct:source\">http://www.museomix.org</a>.<br />Über diese Lizenz hinausgehende Erlaubnisse können Sie unter <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"info[at]museomix.ch\" rel=\"cc:morePermissions\">info[at]museomix.ch</a> erhalten."
+}

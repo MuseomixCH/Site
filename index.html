@@ -1,16 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="fr">
+<html lang="fr" data-i18n="[lang]language.current.lower">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Museomix CH">
-    <meta name="keywords" content="museomix,leman,ch">
-    <meta name="author" content="Association Museomix CH">
+    <meta name="description" content="Museomix CH" data-i18n="[content]meta.description">
+    <meta name="keywords" content="museomix,leman,ch" data-i18n="[content]meta.keywords">
+    <meta name="author" content="Association Museomix CH" data-i18n="[content]meta.author">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="alternate" hreflang="fr" href="?lang=fr" />
+    <link rel="alternate" hreflang="de" href="?lang=de" />
     
-    <title lang="fr">MUSEOMIX CH</title>
+    <title lang="fr" data-i18n="[lang]language.current.lower">MUSEOMIX CH</title>
     
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -24,6 +26,12 @@
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <!-- jQuery (for Bootstrap plugins and i18next) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    
+    <!-- i18next -->
+    <script src="js/i18next-1.10.1.min.js"></script>
     
     <style>
     h4 {
@@ -56,22 +64,22 @@
           <!-- Left -->
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FR<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-i18n="language.current.upper">FR</span><span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="index_de.html">DE</a></li>
-                <li><a href=".">FR</a></li>
+                <li><a href="?lang=de" data-i18n="language.german">DE</a></li>
+                <li><a href="?lang=fr" data-i18n="language.french">FR</a></li>
               </ul>
             </li>
-            <li><a href="#informations">Informations</a></li>
-            <li><a href="#social">Réseaux sociaux</a></li>
-            <li><a href="#2014">2014</a></li>
+            <li><a href="#information" data-i18n="navbar.information">Informations</a></li>
+            <li><a href="#social" data-i18n="navbar.social">Réseaux sociaux</a></li>
+            <li><a href="#2014" data-i18n="navbar.2014">2014</a></li>
           </ul>
           
           <!-- Right -->
           <ul class="nav navbar-nav navbar-right">
             <!-- Contacts -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacts <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span data-i18n="navbar.contact.title">Contacts</span> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#newsletter"><span class="fa fa-envelope-o"></span> Newsletter</a></li>
                 <li><a href="mailto:info[at]museomix.ch"><span class="fa fa-envelope"></span> info[at]museomix.ch</a></li>
@@ -87,65 +95,60 @@
             
             <!-- Documents -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span data-i18n="navbar.documents.title">Documents</span> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a target="#">Communiqué de presse du 15.05.2015</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20150615-de.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Medienmitteilung</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20150615-fr.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Communiqué de presse</a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20150615-fr.pdf" data-i18n="[href]navbar.documents.20150515.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.20150515.title">Communiqué de presse du 15.05.2015</span></a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20150610-fr.pdf" data-i18n="[href]navbar.documents.20150510.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.20150510.title">Communiqué de presse du 10.05.2015</span></a></li>
                 <li class="divider"></li>
-                <li><a target="#">Communiqué de presse du 10.05.2015</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20150610-de.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Medienmitteilung</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20150610-fr.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Informations des médias</a></li>
+                <li><a target="_blank" href="pdf/appel-a-projet-museomix-2015.pdf" data-i18n="[href]navbar.documents.call2015.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.call2015.title">Appel à projets 2015</span></a></li>
                 <li class="divider"></li>
-                <li><a target="_blank" href="pdf/appel-a-projet-museomix-2015.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Appel à projets 2015</a></li>
+                <li><a target="#" data-i18n="navbar.documents.2014.title">Museomix 2014</a></li>
+                <li><a target="_blank" href="pdf/flyer-museomix-rectoverso-small-web.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2014.flyer.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2014.flyer.title">Flyer: Découvrez un laboratoire vivant au cœur du musée!</span></a></li>
+                <li><a target="_blank" href="pdf/invitation-journee-pro-museomix.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2014.pro.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2014.pro.title">Invitation à la journée pour les professionnels</span></a></li>
+                <li><a target="_blank" href="pdf/kit-info-museomixleman.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2014.info.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2014.info.title">Les infos pratiques pour tout comprendre</span></a></li>
+                <li><a target="_blank" href="http://fr.slideshare.net/BouananiLeila/evaluation2014" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2014.inquiry.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2014.inquiry.title">Enquête auprès des publics de Museomix</span></a></li>
                 <li class="divider"></li>
-                <li><a target="_blank" href="pdf/flyer-museomix-rectoverso-small-web.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Flyer: Découvrez un laboratoire vivant au cœur du musée!</a></li>
-                <li><a target="_blank" href="pdf/invitation-journee-pro-museomix.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Invitation à la journée pour les professionnels</a></li>
-                <li><a target="_blank" href="pdf/kit-info-museomixleman.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Les infos pratiques pour tout comprendre</a></li>
+                <li><a target="#" data-i18n="navbar.documents.20141109.title">Communiqué de presse du 09.11.2014</a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20141109.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.20141109.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.mediarelease">Communiqué de presse</span></a></li>
+                <li><a target="_blank" href="pdf/museomix-visuels-presse-20141109.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.20141109.media"><span class="fa fa-file-photo-o"></span> <span data-i18n="navbar.documents.media">Visuels pour la presse</span></a></li>
                 <li class="divider"></li>
-                <li><a target="_blank" href="http://fr.slideshare.net/BouananiLeila/evaluation2014" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Enquête auprès des publics de Museomix en 2014</a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20141106.pdf" data-i18n="[href]navbar.documents.20141106.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.20141106.title">Communiqué de presse de novembre 2014</span></a></li>
                 <li class="divider"></li>
-                <li><a target="#">Communiqué de presse du 09.11.2014</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20141109.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Communiqué de presse</a></li>
-                <li><a target="_blank" href="pdf/museomix-visuels-presse-20141109.pdf" style="padding-left: 25px;"><span class="fa fa-file-photo-o"></span> Visuels pour la presse</a></li>
+                <li><a target="#" data-i18n="navbar.documents.20140610.title">Communiqué de presse du 10.06.2014</a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20140610.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.20140610.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.mediarelease">Communiqué de presse</span></a></li>
+                <li><a target="_blank" href="pdf/museomix-visuels-presse-20140610.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.20140610.media"><span class="fa fa-file-photo-o"></span> <span data-i18n="navbar.documents.media">Visuels pour la presse</span></a></li>
                 <li class="divider"></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20141106.pdf"><span class="fa fa-file-text-o"></span> Communiqué de presse de novembre 2014</a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20140512.pdf" data-i18n="[href]navbar.documents.20140512.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.20140512.title">Communiqué de presse du 12.05.2014</span></a></li>
+                <li><a target="_blank" href="pdf/museomix-communique-presse-20140408.pdf" data-i18n="[href]navbar.documents.20140408.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.20140408.title">Communiqué de presse du 08.04.2014</span></a></li>
                 <li class="divider"></li>
-                <li><a target="#">Communiqué de presse du 10.06.2014</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20140610.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Communiqué de presse</a></li>
-                <li><a target="_blank" href="pdf/museomix-visuels-presse-20140610.pdf" style="padding-left: 25px;"><span class="fa fa-file-photo-o"></span> Visuels pour la presse</a></li>
+                <li><a target="_blank" href="pdf/timeline-museomix-2015.pdf" data-i18n="[href]navbar.documents.timeline.2015.link"><span class="fa fa-clock-o"></span> <span data-i18n="navbar.documents.timeline.2015.title">Timeline 2015</span></a></li>
+                <li><a target="_blank" href="pdf/timeline-museomix-2014.pdf" data-i18n="[href]navbar.documents.timeline.2014.link"><span class="fa fa-clock-o"></span> <span data-i18n="navbar.documents.timeline.2014.title">Timeline 2014</span></a></li>
                 <li class="divider"></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20140512.pdf"><span class="fa fa-file-text-o"></span> Communiqué de presse du 12.05.2014</a></li>
-                <li><a target="_blank" href="pdf/museomix-communique-presse-20140408.pdf"><span class="fa fa-file-text-o"></span> Communiqué de presse du 08.04.2014</a></li>
-                <li class="divider"></li>
-                <li><a target="_blank" href="pdf/timeline-museomix-2015.pdf"><span class="fa fa-clock-o"></span> Timeline 2015</a></li>
-                <li><a target="_blank" href="pdf/timeline-museomix-2014.pdf"><span class="fa fa-clock-o"></span> Timeline 2014</a></li>
-                <li class="divider"></li>
-                <li><a target="#">Association</a></li>
-                <li><a target="_blank" href="pdf/museomixch-statuts.pdf"><span class="fa fa-file-text-o"></span> Statuts</a></li>
-                <li><a target="_blank" href="pdf/pv-museomixch-20150504.pdf"><span class="fa fa-file-text-o"></span> PV du 04.05.2015</a></li>
-                <li><a target="_blank" href="pdf/pv-museomixleman-20140325.pdf"><span class="fa fa-file-text-o"></span> PV du 25.03.2014</a></li>
-                <li><a target="_blank" href="pdf/museomixch-talon-inscription.pdf"><span class="fa fa-file-text-o"></span> Talon d'inscription</a></li>
+                <li><a target="#" data-i18n="navbar.documents.society.title">Association</a></li>
+                <li><a target="_blank" href="pdf/museomixch-statuts.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.statutes.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.statutes.title">Statuts</span></a></li>
+                <li><a target="_blank" href="pdf/pv-museomixch-20150504.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.20150504.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.20150504.title">PV du 04.05.2015</span></a></li>
+                <li><a target="_blank" href="pdf/pv-museomixleman-20140325.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.20140325.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.20140325.title">PV du 25.03.2014</span></a></li>
+                <li><a target="_blank" href="pdf/museomixch-talon-inscription.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.inscription.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.inscription.title">Talon d'inscription</a></li>
               </ul>
             </li>
             
             <!-- MfK -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">MfK <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span data-i18n="navbar.mfk.title">MfK</span> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a target="_blank" href="http://www.mfk.ch/"><span class="fa fa-home"></span> Accueil</a></li>
+                <li><a target="_blank" href="http://www.mfk.ch/" data-i18n="[href]navbar.mfk.home.link"><span class="fa fa-home"></span> <span data-i18n="navbar.mfk.home.title">Accueil</span></a></li>
               </ul>
             </li>
             
             <!-- museomix.org -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">museomix.org <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span data-i18n="navbar.museomix_org.title">museomix.org</span> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a target="_blank" href="http://www.museomix.org/"><span class="fa fa-home"></span> Accueil</a></li>
-                <li><a href="http://www.museomix.org/actualites/"><span class="fa fa-file-o"></span> Blog</a></li>
+                <li><a target="_blank" href="http://www.museomix.org/" data-i18n="[href]navbar.museomix_org.home.link"><span class="fa fa-home"></span> <span data-i18n="navbar.museomix_org.home.title">Accueil</span></a></li>
+                <li><a target="_blank" href="http://www.museomix.org/actualites/" data-i18n="[href]navbar.museomix_org.blog.link"><span class="fa fa-file-o"></span> <span data-i18n="navbar.museomix_org.blog.title">Blog</span></a></li>
                 <li class="divider"></li>
-                <li><a target="_blank" href="http://www.museomix.org/localisation/geneve-2014/"><span class="fa fa-institution"></span> Genève 2014</a></li>
-                <li><a target="_blank" href="http://www.museomix.org/category/leman/"><span class="fa fa-file-o"></span> Blog @Léman</a></li>
+                <li><a target="_blank" href="http://www.museomix.org/localisation/geneve-2014/"  data-i18n="[href]navbar.museomix_org.geneve2014.link"><span class="fa fa-institution"></span> <span data-i18n="navbar.museomix_org.geneve2014.title">Genève 2014</span></a></li>
+                <li><a target="_blank" href="http://www.museomix.org/category/leman/" data-i18n="[href]navbar.museomix_org.leman.link"><span class="fa fa-file-o"></span> <span data-i18n="navbar.museomix_org.leman.title">Blog @Léman</span></a></li>
               </ul>
             </li>
           </ul>
@@ -164,7 +167,7 @@
     <div class="row text-center">
       <div class="col-md-1"></div>
       <div class="col-md-10">
-        <p class="lead">Museomix CH c'est 3 jours pour remixer un musée avec des visiteurs, des graphistes, des designers, des codeurs, des conservateurs, des médiateurs...</p>
+        <p class="lead" data-i18n="description">Museomix CH c'est 3 jours pour remixer un musée avec des visiteurs, des graphistes, des designers, des codeurs, des conservateurs, des médiateurs...</p>
       </div>
       <div class="col-md-1"></div>
     </div>
@@ -173,18 +176,15 @@
     <div class="row text-center">
       <div class="col-md-1"></div>
       <div class="col-md-10">
-        <h1>
-          Museomix 2015 aura lieu du 6 au 9 novembre au<br><a target="_blank" href="http://www.mfk.ch">Musée de la communication</a> à Berne
-        </h1>
+        <h1 data-i18n="[html]main">Museomix 2015 aura lieu du 6 au 9 novembre au<br><a target="_blank" href="http://www.mfk.ch">Musée de la communication</a> à Berne</h1>
       </div>
       <div class="col-md-1"></div>
     </div>
     
     <!-- Information -->
-    <div id="informations" class="row text-left">
+    <div id="information" class="row text-left">
       <div class="col-md-6">
-        <a id="pistes"></a>
-        <h4>Pistes thématiques</h4>
+        <h4 data-i18n="information.theme.title">Museomix Berne 2015 - Pistes thématiques</h4>
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="embed-responsive embed-responsive-16by9">
@@ -194,13 +194,12 @@
         </div>
       </div>
       <div class="col-md-6 text-center">
-        <a id="pratiques"></a>
-        <h4>Informations pratiques</h4>
+        <h4 data-i18n="information.pratical.title">Informations pratiques</h4>
         <div class="panel panel-default">
           <div class="panel-body lead">
             <img class="media-object center-block img-responsive" src="resources/kit-museomix.png" alt="1 musée - 1 communauté - 3 jours - 1 boîte à outils"><br>
-            1 musée - 1 communauté - 3 jours - 1 boîte à outils<br>
-            <a class="blue" target="_blank" href="pdf/kit-museomix-FR.pdf">Informations pratiques</a> <small>( <a target="_blank" href="pdf/kit-museomix-FR.pdf"><span class="fa fa-file-text-o"></span> PDF</a> )</small>
+            <span data-i18n="information.pratical.content">1 musée - 1 communauté - 3 jours - 1 boîte à outils</span><br>
+            <a class="blue" target="_blank" href="pdf/kit-museomix-FR.pdf" data-i18n="[href]information.pratical.link"><span data-i18n="information.pratical.title">Informations pratiques</span></a> <small>( <a target="_blank" href="pdf/kit-museomix-FR.pdf" data-i18n="[href]information.pratical.link"><span class="fa fa-file-text-o"></span> PDF</a> )</small>
           </div>
         </div>
       </div>
@@ -210,7 +209,7 @@
     <div id="social" class="row text-center">
       <!-- Social networks -->
       <div class="col-md-12 text-left">
-        <h4>Réseaux sociaux</h4>
+        <h4 data-i18n="social.title">Réseaux sociaux</h4>
         <div class="row text-center">
           
           <!-- Twitter -->
@@ -233,8 +232,7 @@
     <div id="2014" class="row text-left">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <a id="pratiques"></a>
-        <h4>Comment revivre l’expérience</h4>
+        <h4 data-i18n="2014.title">Genève 2014 - Comment revivre l’expérience</h4>
         <div class="panel panel-default">
           <div class="panel-body lead text-center">
             <div class="embed-responsive embed-responsive-16by9">
@@ -242,9 +240,9 @@
             </div>
             <div class="panel-body text-left">
               <ul>
-               <li><a target="_blank" href="https://www.youtube.com/user/museomixleman/featured">Toutes les vidéos</a></li>
-               <li><a target="_blank" href="http://www.museomix.org/category/leman/">Le blog</a></li>
-               <li>Les prototypes:
+               <li><a target="_blank" href="https://www.youtube.com/user/museomixleman/featured" data-i18n="2014.video">Toutes les vidéos</a></li>
+               <li><a target="_blank" href="http://www.museomix.org/category/leman/" data-i18n="2014.blog">Le blog</a></li>
+               <li><span data-i18n="2014.prototype">Les prototypes:</span>
                  <ul>
                    <li><a target="_blank" href="http://www.museomix.org/prototypes/tissus-subjectifs/">Alice et le Minotaure</a></li>
                    <li><a target="_blank" href="http://www.museomix.org/prototypes/cooleurs/">Cooleurs</a></li>
@@ -270,22 +268,22 @@
       
           <!-- MailChimp -->
           <div id="newsletter" class="col-md-6 text-left">
-            <h4>Newsletter</h4>
-            Inscrivez-vous à la newsletter pour rester informé des activités de Museomix CH.
+            <h4 data-i18n="newsletter.title">Newsletter</h4>
+            <span data-i18n="newsletter.content">Inscrivez-vous à la newsletter pour rester informé des activités de Museomix CH.</span>
             <form action="//museomix.us8.list-manage.com/subscribe/post?u=970e84b00ae8987d8cdf4dc88&amp;id=09b865f6df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div class="form-group">
-                <label for="mce-EMAIL">Email <span class="asterisk"></span> </label>
-                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Insérer l'email (obligatoire)">
+                <label for="mce-EMAIL" data-i18n="newsletter.email.label">Email <span class="asterisk"></span> </label>
+                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Insérer l'email (obligatoire)" data-i18n="[placeholder]newsletter.email.placeholder">
               </div>
               <div class="form-group">
-                <label for="mce-FNAME">Prénom </label>
-                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Insérer le prénom">
+                <label for="mce-FNAME" data-i18n="newsletter.firstname.label">Prénom </label>
+                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Insérer le prénom" data-i18n="[placeholder]newsletter.firstname.placeholder">
               </div>
               <div class="form-group">
-                <label for="mce-LNAME">Nom </label>
-                <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Insérer le nom">
+                <label for="mce-LNAME" data-i18n="newsletter.lastname.label">Nom </label>
+                <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Insérer le nom" data-i18n="[placeholder]newsletter.lastname.placeholder">
               </div>
-              <strong>Langue:</strong>
+              <strong data-i18n="newsletter.language">Langue:</strong>
               <ul style="list-style-type: none">
                 <li>
                   <input type="radio" value="131072" name="group[16305]" id="mce-group[16305]-16305-0"> <label for="mce-group[16305]-16305-0">FR</label>
@@ -304,14 +302,14 @@
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;"><input type="text" name="b_970e84b00ae8987d8cdf4dc88_09b865f6df" tabindex="-1" value=""></div>
               <div class="clear">
-                <input type="submit" value="Abonnez-vous" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                <input type="submit" value="Abonnez-vous" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" data-i18n="[value]newsletter.submit">
               </div>
             </form>
           </div>
       
           <!-- Share -->
           <div class="col-md-6">
-            <h4>Partager</h4>
+            <h4 data-i18n="share.title">Partager</h4>
         
             <!-- Twitter -->
             <div>
@@ -337,8 +335,8 @@
     <div id="partners" class="row text-left">
       <div class="col-md-4"></div>
       <div class="col-md-4 text-center">
-        <h4 style="margin-top: 10px;">Avec le soutien de</h4>
-        <div class="col-md-12" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.engagement-migros.ch/"><img class="media-object center-block img-responsive" src="resources/engagement-m-f-200px.png" alt="Engagement Migros"></a></div>
+        <h4 style="margin-top: 10px;" data-i18n="partners.title">Avec le soutien de</h4>
+        <div class="col-md-12" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.engagement-migros.ch/"><img class="media-object center-block img-responsive" src="resources/engagement-m-f-200px.png" alt="Engagement Migros" data-i18n="[src]partners.em.image"></a></div>
       </div>
       <div class="col-md-4"></div>
       </div>
@@ -348,17 +346,28 @@
     <div class="row text-center" style="padding: 50px 15px 15px;">
       <div class="col-md-2"></div>
       <div class="col-md-8">
-        <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Museomix CH</span> de l'<a xmlns:cc="http://creativecommons.org/ns#" href="http://www.museomix.ch" property="cc:attributionName" rel="cc:attributionURL">Association Museomix CH</a> est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.<br />Fondé(e) sur une œuvre à <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.museomix.org" rel="dct:source">http://www.museomix.org</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues à <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:info[at]museomix.ch" rel="cc:morePermissions">mailto:info[at]museomix.ch</a>.<br>
+        <span data-i18n="[html]license"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Museomix CH</span> de l'<a xmlns:cc="http://creativecommons.org/ns#" href="http://www.museomix.ch" property="cc:attributionName" rel="cc:attributionURL">Association Museomix CH</a> est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.<br />Fondé(e) sur une œuvre à <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.museomix.org" rel="dct:source">http://www.museomix.org</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues à <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:info[at]museomix.ch" rel="cc:morePermissions">mailto:info[at]museomix.ch</a>.</span><br>
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
       </div>
       <div class="col-md-2"></div>
     </div>
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+      
+    <!-- i18next -->
+    <script>
+      $.i18n.init({
+        detectLngQS: 'lang',
+        fallbackLng: 'fr',
+        useLocalStorage: false,
+        debug: true
+      }, function(t) {
+        $('html').i18n();
+      });
+    </script>
     
+    <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
