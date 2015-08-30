@@ -1,0 +1,187 @@
+{
+  "title": "MUSEOMIX CH",
+  "meta": {
+    "description": "Museomix CH",
+    "keywords": "museomix,leman,ch",
+    "author": "Associazione Museomix CH"
+  },
+  "language": {
+    "current": {
+      "upper": "IT",
+      "lower": "it"
+    },
+    "french": "FR",
+    "german": "DE",
+    "italian": "IT"
+  },
+  "navbar": {
+    "information": "Informazioni",
+    "social": "Reti sociali",
+    "2014": "2014",
+    "contact": {
+      "title": "Contatti"
+    },
+    "documents": {
+      "title": "Documenti",
+      "mediarelease": "Comunicato stampa",
+      "media": "Fotografie ad uso stampa",
+      "20150515": {
+        "title": "Comunicato stampa del 15.05.2015",
+        "link": "pdf/museomix-communique-presse-20150615-fr.pdf"
+      },
+      "20150510": {
+        "title": "Comunicato stampa del 10.05.2015",
+        "link": "pdf/museomix-communique-presse-20150610-fr.pdf"
+      },
+      "call2015": {
+        "title": "Invito a presentare progetti 2015",
+        "link": "pdf/appel-a-projet-museomix-2015.pdf"
+      },
+      "2014": {
+        "title": "Museomix 2014",
+        "flyer": {
+          "title": "Flyer: Scoprite un laboratorio vivente nel cuore del museo!",
+          "link": "pdf/flyer-museomix-rectoverso-small-web.pdf"
+        },
+        "pro": {
+          "title": "Invito alla giornata per i professionisti",
+          "link": "pdf/invitation-journee-pro-museomix.pdf"
+        },
+        "info": {
+          "title": "Les informazioni pratiche per capire tutto",
+          "link": "pdf/kit-info-museomixleman.pdf"
+        },
+        "inquiry": {
+          "title": "Inchiesta al pubblico di Museomix",
+          "link": "http://fr.slideshare.net/BouananiLeila/evaluation2014"
+        }
+      },
+      "20141109": {
+        "title": "Comunicato stampa del 09.11.2014",
+        "link": "pdf/museomix-communique-presse-20141109.pdf",
+        "media": "pdf/museomix-visuels-presse-20141109.pdf"
+      },
+      "20141106": {
+        "title": "Comunicato stampa di novembre 2014",
+        "link": "pdf/museomix-communique-presse-20141106.pdf"
+      },
+      "20140610": {
+        "title": "Comunicato stampa del 10.06.2014",
+        "link": "pdf/museomix-communique-presse-20140610.pdf",
+        "media": "pdf/museomix-visuels-presse-20140610.pdf"
+      },
+      "20140512": {
+        "title": "Comunicato stampa del 12.05.2014",
+        "link": "pdf/museomix-communique-presse-20140512.pdf"
+      },
+      "20140408": {
+        "title": "Comunicato stampa del 08.04.2014",
+        "link": "pdf/museomix-communique-presse-20140408.pdf"
+      },
+      "timeline": {
+        "2015": {
+          "title": "Timeline 2015",
+          "link": "pdf/timeline-museomix-2015.pdf"
+        },
+        "2014": {
+          "title": "Timeline 2014",
+          "link": "pdf/timeline-museomix-2014.pdf"
+        }
+      },
+      "society" : {
+        "title": "Associazione",
+        "statutes": {
+          "title": "Statuti",
+          "link": "pdf/museomixch-statuts.pdf"
+        },
+        "20150504": {
+          "title": "Verbale del 04.05.2015",
+          "link": "pdf/pv-museomixch-20150504.pdf"
+        },
+        "20140325": {
+          "title": "Verbale del 25.03.2014",
+          "link": "pdf/pv-museomixleman-20140325.pdf"
+        },
+        "inscription": {
+          "title": "Formulario d'iscrizione",
+          "link": "pdf/museomixch-talon-inscription.pdf"
+        }
+      }
+    },
+    "mfk": {
+      "title": "MfK",
+      "home": {
+        "title": "Sito",
+        "link": "http://www.mfk.ch/"
+      }
+    },
+    "museomix_org": {
+      "title": "museomix.org",
+      "home": {
+        "title": "Sito",
+        "link": "http://www.museomix.org/"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "link": "http://www.museomix.org/actualites/"
+    },
+    "geneve2014": {
+      "title": "Ginevra 2014",
+      "link": "http://www.museomix.org/localisation/geneve-2014/"
+    },
+    "leman": {
+      "title": "Blog @Léman",
+      "link": "http://www.museomix.org/category/leman/"
+    }
+  },
+  "description": "Museomix CH è un evento su 3 giorni di remix di un museo con visitatori, grafici, designers, programmatori, conservatori, mediatori...",
+  "main": "Museomix 2015 avrà luogo dal 6 al 9 novembre al<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museo della comunicazione</a> a Berna",
+  "information": {
+    "theme": {
+      "title": "Museomix Berne 2015 - Piste tematiche"
+    },
+    "pratical": {
+      "title": "Informationi pratiche",
+      "content": "1 museo - 1 comunità - 3 giorni - 1 cassetta degli attrezzi",
+      "link": "pdf/kit-museomix-FR.pdf"
+    }
+  },
+  "social": {
+    "title": "Reti sociali"
+  },
+  "2014": {
+    "title": "Ginevra 2014 - Come rivivere l'esperienza",
+    "video": "Tutti i video",
+    "blog": "Il blog",
+    "prototype": "I prototipi:"
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "content": "Iscrivetevi alla newsletter per restare informati delle attività di Museomix CH.",
+    "email": {
+      "label": "Email",
+      "placeholder": "Inserire l'email (obbligatorio)"
+    },
+    "firstname": {
+      "label": "Nome",
+      "placeholder": "Inserire il nome"
+    },
+    "lastname": {
+      "label": "Cognome",
+      "placeholder": "Inserire il cognome"
+    },
+    "language": "Lingua:",
+    "submit": "Abbonatevi"
+  },
+  "share": {
+    "title": "Condividere"
+  },
+  "partners": {
+    "title": "Con il sostegno di",
+    "em": {
+      "image": "resources/engagement-m-i-200px.png"
+    }
+  },
+  "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> di<a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch/\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Associazione Museomix CH</a> è distribuito con Licenza <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.<br />Basato su un opera di <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org/\" rel=\"dct:source\">http://www.museomix.org/</a>.<br />Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"mailto:info[at]museomix.ch\" rel=\"cc:morePermissions\">mailto:info[at]museomix.ch</a>."
+}
