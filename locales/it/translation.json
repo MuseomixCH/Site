@@ -16,7 +16,7 @@
   },
   "navbar": {
     "information": "Informazioni",
-    "social": "Reti sociali",
+    "social": "Social media",
     "2014": "2014",
     "contact": {
       "title": "Contatti"
@@ -135,20 +135,20 @@
       "link": "http://www.museomix.org/category/leman/"
     }
   },
-  "description": "Museomix CH è un evento su 3 giorni di remix di un museo con visitatori, grafici, designers, programmatori, conservatori, mediatori...",
-  "main": "Museomix 2015 avrà luogo dal 6 al 9 novembre al<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museo della comunicazione</a> a Berna",
+  "description": "Museomix CH è una 3 giorni di laboratorio per reinventare un museo con visitatori, grafici, designers, programmatori, conservatori, mediatori...",
+  "main": "Museomix 2015 avrà luogo dal 6 al 9 novembre al<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museo della comunicazione</a> di Berna",
   "information": {
     "theme": {
-      "title": "Museomix Berne 2015 - Piste tematiche"
+      "title": "Museomix Berne 2015 - Aree tematiche"
     },
     "pratical": {
-      "title": "Informationi pratiche",
+      "title": "Informazioni pratiche",
       "content": "1 museo - 1 comunità - 3 giorni - 1 cassetta degli attrezzi",
       "link": "pdf/kit-museomix-FR.pdf"
     }
   },
   "social": {
-    "title": "Reti sociali"
+    "title": "Social media"
   },
   "2014": {
     "title": "Ginevra 2014 - Come rivivere l'esperienza",
@@ -158,7 +158,7 @@
   },
   "newsletter": {
     "title": "Newsletter",
-    "content": "Iscrivetevi alla newsletter per restare informati delle attività di Museomix CH.",
+    "content": "Iscriviti alla newsletter per restare informati delle attività di Museomix CH.",
     "email": {
       "label": "Email",
       "placeholder": "Inserire l'email (obbligatorio)"
@@ -172,7 +172,7 @@
       "placeholder": "Inserire il cognome"
     },
     "language": "Lingua:",
-    "submit": "Abbonatevi"
+    "submit": "Abbonati"
   },
   "share": {
     "title": "Condividere"
@@ -183,5 +183,5 @@
       "image": "resources/engagement-m-i-200px.png"
     }
   },
-  "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> di<a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch/\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Associazione Museomix CH</a> è distribuito con Licenza <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.<br />Basato su un opera di <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org/\" rel=\"dct:source\">http://www.museomix.org/</a>.<br />Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"mailto:info[at]museomix.ch\" rel=\"cc:morePermissions\">mailto:info[at]museomix.ch</a>."
+  "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> dell'<a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch/\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Associazione Museomix CH</a> è distribuito con Licenza <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.<br />Basato su un'opera di <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org/\" rel=\"dct:source\">http://www.museomix.org/</a>.<br />Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"mailto:info[at]museomix.ch\" rel=\"cc:morePermissions\">mailto:info[at]museomix.ch</a>."
 }
