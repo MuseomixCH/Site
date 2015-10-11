@@ -148,6 +148,11 @@
   "description": "Museomix CH c'est 3 jours pour remixer un musée avec des visiteurs, des graphistes, des designers, des codeurs, des conservateurs, des médiateurs...",
   "main": "Museomix 2015 aura lieu du 6 au 9 novembre au<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Musée de la communication</a> à Berne",
   "information": {
+    "flyer": {
+      "title": "Flyer: Découvrez un laboratoire vivant au cœur du musée!",
+      "image": "resources/flyer-museomix-2015-FR.jpg",
+      "link": "pdf/flyer-museomix-2015-FR.pdf"
+    },
     "theme": {
       "title": "Museomix Berne 2015 - Pistes thématiques"
     },
