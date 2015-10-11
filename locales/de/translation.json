@@ -25,17 +25,27 @@
       "title": "Dokumente",
       "mediarelease": "Medienmitteilung",
       "media": "Pressebilder",
-      "20150515": {
-        "title": "Medienmitteilung vom 15.05.2015",
-        "link": "pdf/museomix-communique-presse-20150615-de.pdf"
-      },
-      "20150510": {
-        "title": "Medienmitteilung vom 10.05.2015",
-        "link": "pdf/museomix-communique-presse-20150610-de.pdf"
-      },
-      "call2015": {
-        "title": "Projektaufruf 2015",
-        "link": "pdf/appel-a-projet-museomix-2015.pdf"
+      "2015": {
+        "flyer": {
+          "title": "Flyer: Entdecken Sie ein dynamisches Labor im Herzen des Museums!",
+          "link": "pdf/flyer-museomix-2015-DE.pdf"
+        },
+        "info": {
+          "title": "Praktische Informationen",
+          "link": "pdf/kit-museomix-DE.pdf"
+        },
+        "20150515": {
+          "title": "Medienmitteilung vom 15.05.2015",
+          "link": "pdf/museomix-communique-presse-20150615-de.pdf"
+        },
+        "20150510": {
+          "title": "Medienmitteilung vom 10.05.2015",
+          "link": "pdf/museomix-communique-presse-20150610-de.pdf"
+        },
+        "call2015": {
+          "title": "Projektaufruf 2015",
+          "link": "pdf/appel-a-projet-museomix-2015.pdf"
+        }
       },
       "2014": {
         "title": "Museomix 2014",

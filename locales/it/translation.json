@@ -25,17 +25,27 @@
       "title": "Documenti",
       "mediarelease": "Comunicato stampa",
       "media": "Fotografie ad uso stampa",
-      "20150515": {
-        "title": "Comunicato stampa del 15.05.2015",
-        "link": "pdf/museomix-communique-presse-20150615-fr.pdf"
-      },
-      "20150510": {
-        "title": "Comunicato stampa del 10.05.2015",
-        "link": "pdf/museomix-communique-presse-20150610-fr.pdf"
-      },
-      "call2015": {
-        "title": "Invito a presentare progetti 2015",
-        "link": "pdf/appel-a-projet-museomix-2015.pdf"
+      "2015": {
+        "flyer": {
+          "title": "Flyer: Scoprite un laboratorio vivente nel cuore del museo!",
+          "link": "pdf/flyer-museomix-2015-FR.pdf"
+        },
+        "info": {
+          "title": "Les informazioni pratiche per capire tutto",
+          "link": "pdf/kit-museomix-FR.pdf"
+        },
+        "20150515": {
+          "title": "Comunicato stampa del 15.05.2015",
+          "link": "pdf/museomix-communique-presse-20150615-fr.pdf"
+        },
+        "20150510": {
+          "title": "Comunicato stampa del 10.05.2015",
+          "link": "pdf/museomix-communique-presse-20150610-fr.pdf"
+        },
+        "call2015": {
+          "title": "Invito a presentare progetti 2015",
+          "link": "pdf/appel-a-projet-museomix-2015.pdf"
+        }
       },
       "2014": {
         "title": "Museomix 2014",
