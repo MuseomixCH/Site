@@ -207,14 +207,14 @@
     "sponsors": {
       "title": "Avec le soutien de",
       "em": {
-        "image": "resources/partners/engagement-m-f-671x100.png"
+        "image": "resources/partners/engagement-m-f.png"
       }
     },
     "partners": {
       "title": "Partenaires",
       "ajs": {
         "link": "http://www.youthhostel.ch/fr/",
-        "image": "resources/partners/ajs-f-505x100.png"
+        "image": "resources/partners/ajs-f.png"
       },
       "trotec": {
         "link": "http://www.troteclaser.com/fr-fr-CH/"
