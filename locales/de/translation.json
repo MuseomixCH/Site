@@ -221,7 +221,10 @@
       },
       "izi-travel": {
         "link": "https://izi.travel/de"
-      } 
+      },
+      "las-alps": {
+        "link": "http://www.alpinesmuseum.ch/de/restaurant"
+      }
     },
     "global": {
       "title": "Partner Museomix Global"
