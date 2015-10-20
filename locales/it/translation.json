@@ -17,6 +17,7 @@
   "navbar": {
     "information": "Informazioni",
     "social": "Social media",
+    "partners": "Partner",
     "2014": "2014",
     "contact": {
       "title": "Contatti"
@@ -196,6 +197,37 @@
     "title": "Con il sostegno di",
     "em": {
       "image": "resources/engagement-m-i-200px.png"
+    }
+  },
+  "partners-page": {
+    "close": "Chiudere",
+    "organisers": {
+      "title": "Organizzatori"
+    },
+    "sponsors": {
+      "title": "Con il sostegno di",
+      "em": {
+        "image": "resources/partners/engagement-m-i.png"
+      }
+    },
+    "partners": {
+      "title": "Partner",
+      "ajs": {
+        "link": "http://www.youthhostel.ch/fr/",
+        "image": "resources/partners/ajs-f.png"
+      },
+      "trotec": {
+        "link": "http://www.troteclaser.com/fr-fr-CH/"
+      },
+      "izi-travel": {
+        "link": "https://izi.travel/it"
+      },
+      "las-alps": {
+        "link": "http://www.alpinesmuseum.ch/fr/restaurant"
+      }
+    },
+    "global": {
+      "title": "Partner Museomix Globale"
     }
   },
   "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> dell'<a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch/\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Associazione Museomix CH</a> è distribuito con Licenza <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.<br />Basato su un'opera di <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org/\" rel=\"dct:source\">http://www.museomix.org/</a>.<br />Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"mailto:info[at]museomix.ch\" rel=\"cc:morePermissions\">mailto:info[at]museomix.ch</a>."

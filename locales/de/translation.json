@@ -17,6 +17,7 @@
   "navbar": {
     "information": "Information",
     "social": "Soziale Netzwerke",
+    "partners": "Partner",
     "2014": "2014",
     "contact": {
       "title": "Kontakt"
@@ -196,6 +197,37 @@
     "title": "Unterstützt durch",
     "em": {
       "image": "resources/engagement-m-d-200px.png"
+    }
+  },
+  "partners-page": {
+    "close": "Schließen",
+    "organisers": {
+      "title": "Veranstalter"
+    },
+    "sponsors": {
+      "title": "Unterstützt durch",
+      "em": {
+        "image": "resources/partners/engagement-m-d.png"
+      }
+    },
+    "partners": {
+      "title": "Partner",
+      "ajs": {
+        "link": "http://www.youthhostel.ch/de/",
+        "image": "resources/partners/ajs-d.png"
+      },
+      "trotec": {
+        "link": "http://www.troteclaser.com/de-DE-CH/"
+      },
+      "izi-travel": {
+        "link": "https://izi.travel/de"
+      },
+      "las-alps": {
+        "link": "http://www.alpinesmuseum.ch/de/restaurant"
+      }
+    },
+    "global": {
+      "title": "Partner Museomix Global"
     }
   },
   "license": "<span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">Museomix CH</span> von <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"http://www.museomix.ch\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Vereins Museomix CH</a> ist lizenziert unter einer <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.<br />Beruht auf dem Werk unter <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://www.museomix.org\" rel=\"dct:source\">http://www.museomix.org</a>.<br />Über diese Lizenz hinausgehende Erlaubnisse können Sie unter <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"info[at]museomix.ch\" rel=\"cc:morePermissions\">info[at]museomix.ch</a> erhalten."
