@@ -27,6 +27,10 @@
       "mediarelease": "Comunicato stampa",
       "media": "Fotografie ad uso stampa",
       "2015": {
+        "guide": {
+          "title": "Guida del partecipante",
+          "link": "pdf/guide-participant-2015-FR-WEB.pdf"
+        },
         "flyer": {
           "title": "Flyer: Scoprite un laboratorio vivente nel cuore del museo!",
           "link": "pdf/flyer-museomix-2015-FR.pdf"

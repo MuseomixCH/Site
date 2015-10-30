@@ -27,6 +27,10 @@
       "mediarelease": "Medienmitteilung",
       "media": "Pressebilder",
       "2015": {
+        "guide": {
+          "title": "Teilnehmerhandbuch",
+          "link": "pdf/guide-participant-2015-DE-WEB.pdf"
+        },
         "flyer": {
           "title": "Flyer: Entdecken Sie ein dynamisches Labor im Herzen des Museums!",
           "link": "pdf/flyer-museomix-2015-DE.pdf"
