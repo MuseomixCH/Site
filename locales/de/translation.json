@@ -27,6 +27,10 @@
       "mediarelease": "Medienmitteilung",
       "media": "Pressebilder",
       "2015": {
+        "program": {
+          "title": "Das Programm: Besuchen Sie uns vor Ort!",
+          "link": "pdf/programm-museomix-2015-DE.pdf"
+        },
         "guide": {
           "title": "Teilnehmerhandbuch",
           "link": "pdf/guide-participant-2015-DE-WEB.pdf"
@@ -157,6 +161,26 @@
       "title": "Flyer: Entdecken Sie ein dynamisches Labor im Herzen des Museums!",
       "image": "resources/flyer-museomix-2015-DE.jpg",
       "link": "pdf/flyer-museomix-2015-DE.pdf"
+    },
+    "program": {
+      "title": "Das Programm",
+      "link": "pdf/programm-museomix-2015-DE.pdf",
+      "content": "Besuchen Sie uns vor Ort!",
+      "open": {
+        "title": "Öffnungszeiten",
+        "6": "6. November 2015, 10.00-17.00 Uhr",
+        "7": "7. November 2015, 10.00-17.00 Uhr",
+        "8": "8. November 2015, 10.00-17.00 Uhr"
+      },
+      "tour": {
+        "title": "Visites guidées",
+        "6": "6. November 2015, um 15.00 Uhr und 16.00 Uhr",
+        "7": "7. November 2015, um 11.00 Uhr, 15.00 Uhr und 16.00 Uhr"
+      },
+      "proto": {
+        "title": "Präsentation der Prototypen",
+        "8": "8. November 2015, um 16.00 Uhr"
+      }
     },
     "theme": {
       "title": "Museomix Bern 2015 - Die Themen"

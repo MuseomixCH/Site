@@ -27,6 +27,10 @@
       "mediarelease": "Comunicato stampa",
       "media": "Fotografie ad uso stampa",
       "2015": {
+        "program": {
+          "title": "Il programma: Venite a visitarci e scoprire questo laboratorio in ebollizione!",
+          "link": "pdf/programme-museomix-2015-FR.pdf"
+        },
         "guide": {
           "title": "Guida del partecipante",
           "link": "pdf/guide-participant-2015-FR-WEB.pdf"
@@ -157,6 +161,26 @@
       "title": "Flyer: Scoprite un laboratorio vivente nel cuore del museo!",
       "image": "resources/flyer-museomix-2015-FR.jpg",
       "link": "pdf/flyer-museomix-2015-FR.pdf"
+    },
+    "program": {
+      "title": "Il programma",
+      "link": "pdf/programme-museomix-2015-FR.pdf",
+      "content": "Venite a visitarci e scoprire questo laboratorio in ebollizione!",
+      "open": {
+        "title": "Orari di apertura",
+        "6": "6 novembre 2015: 10:00-17:00",
+        "7": "7 novembre 2015: 10:00-17:00",
+        "8": "8 novembre 2015: 10:00-17:00"
+      },
+      "tour": {
+        "title": "Visite guidate",
+        "6": "6 novembre 2015 alle 15:00 e 16:00",
+        "7": "7 novembre 2015 alle 11:00, 15:00 e 16:00"
+      },
+      "proto": {
+        "title": "Presentazione dei prototipi",
+        "8": "8 novembre 2015 alle 16:00"
+      }
     },
     "theme": {
       "title": "Museomix Berne 2015 - Aree tematiche"
