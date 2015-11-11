@@ -159,47 +159,18 @@
     }
   },
   "description": "Museomix CH c'est 3 jours pour remixer un musée avec des visiteurs, des graphistes, des designers, des codeurs, des conservateurs, des médiateurs...",
-  "main": "Museomix 2015 aura lieu du 6 au 9 novembre au<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Musée de la communication</a> à Berne",
-  "information": {
-    "flyer": {
-      "title": "Flyer: Découvrez un laboratoire vivant au cœur du musée!",
-      "image": "resources/flyer-museomix-2015-FR.jpg",
-      "link": "pdf/flyer-museomix-2015-FR.pdf"
-    },
-    "program": {
-      "title": "Le programme",
-      "link": "pdf/programme-museomix-2015-FR.pdf",
-      "content": "Venez nous visiter et découvrez ce laboratoire en ébullition!",
-      "open": {
-        "title": "Heures d'ouverture",
-        "6": "6 novembre 2015: 10h00-17h00",
-        "7": "7 novembre 2015: 10h00-17h00",
-        "8": "8 novembre 2015: 10h00-17h00"
-      },
-      "tour": {
-        "title": "Visites guidées",
-        "6": "6 novembre 2015 à 15h00 et 16h00",
-        "7": "7 novembre 2015 à 11h00, 15h00 et 16h00"
-      },
-      "proto": {
-        "title": "Présentation des prototypes",
-        "8": "8 novembre 2015 à 16h00"
-      }
-    },
-    "theme": {
-      "title": "Museomix Berne 2015 - Pistes thématiques"
-    },
-    "pratical": {
-      "title": "Informations pratiques",
-      "content": "1 musée - 1 communauté - 3 jours - 1 boîte à outils",
-      "link": "pdf/kit-museomix-FR.pdf"
-    }
-  },
+  "main": "Museomix 2015 a eu lieu du 6 au 9 novembre au<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Musée de la communication</a> à Berne",
   "social": {
     "title": "Réseaux sociaux"
   },
   "2014": {
     "title": "Genève 2014 - Comment revivre l’expérience",
+    "video": "Toutes les vidéos",
+    "blog": "Le blog",
+    "prototype": "Les prototypes:"
+  },
+  "2015": {
+    "title": "Berne 2015 - Comment revivre l’expérience",
     "video": "Toutes les vidéos",
     "blog": "Le blog",
     "prototype": "Les prototypes:"

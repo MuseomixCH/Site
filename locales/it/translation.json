@@ -159,47 +159,18 @@
     }
   },
   "description": "Museomix CH è una 3 giorni di laboratorio per reinventare un museo con visitatori, grafici, designers, programmatori, conservatori, mediatori...",
-  "main": "Museomix 2015 avrà luogo dal 6 al 9 novembre al<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museo della comunicazione</a> di Berna",
-  "information": {
-    "flyer": {
-      "title": "Flyer: Scoprite un laboratorio vivente nel cuore del museo!",
-      "image": "resources/flyer-museomix-2015-FR.jpg",
-      "link": "pdf/flyer-museomix-2015-FR.pdf"
-    },
-    "program": {
-      "title": "Il programma",
-      "link": "pdf/programme-museomix-2015-FR.pdf",
-      "content": "Venite a visitarci e scoprire questo laboratorio in ebollizione!",
-      "open": {
-        "title": "Orari di apertura",
-        "6": "6 novembre 2015: 10:00-17:00",
-        "7": "7 novembre 2015: 10:00-17:00",
-        "8": "8 novembre 2015: 10:00-17:00"
-      },
-      "tour": {
-        "title": "Visite guidate",
-        "6": "6 novembre 2015 alle 15:00 e 16:00",
-        "7": "7 novembre 2015 alle 11:00, 15:00 e 16:00"
-      },
-      "proto": {
-        "title": "Presentazione dei prototipi",
-        "8": "8 novembre 2015 alle 16:00"
-      }
-    },
-    "theme": {
-      "title": "Museomix Berne 2015 - Aree tematiche"
-    },
-    "pratical": {
-      "title": "Informazioni pratiche",
-      "content": "1 museo - 1 comunità - 3 giorni - 1 cassetta degli attrezzi",
-      "link": "pdf/kit-museomix-FR.pdf"
-    }
-  },
+  "main": "Museomix 2015 ha avuto luogo dal 6 al 9 novembre al<br><a target=\"_blank\" href=\"http://www.mfk.ch\">Museo della comunicazione</a> di Berna",
   "social": {
     "title": "Social media"
   },
   "2014": {
     "title": "Ginevra 2014 - Come rivivere l'esperienza",
+    "video": "Tutti i video",
+    "blog": "Il blog",
+    "prototype": "I prototipi:"
+  },
+  "2015": {
+    "title": "Berna 2015 - Come rivivere l'esperienza",
     "video": "Tutti i video",
     "blog": "Il blog",
     "prototype": "I prototipi:"
