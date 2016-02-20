@@ -74,7 +74,7 @@
             </li>
             <li><a href="#information" data-i18n="navbar.information">Informations</a></li>
             <li><a href="#social" data-i18n="navbar.social">Réseaux sociaux</a></li>
-            <li><a data-toggle="modal" data-target="#partners-page" data-i18n="navbar.partners">Partenaires</a></li>
+            <li><a href="#2015" data-i18n="navbar.2015">2015</a></li>
             <li><a href="#2014" data-i18n="navbar.2014">2014</a></li>
           </ul>
           
@@ -102,6 +102,7 @@
               <ul class="dropdown-menu">
                 <li><a target="_blank" href="pdf/offre-coordinateur-20160204.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Soyez le coordinateur de l’événement 2016 en Suisse Romande</a></li>
                 <li class="divider"></li>
+                <li><a target="#" data-i18n="navbar.documents.2015.title">Museomix 2015</a></li>
                 <li><a target="_blank" href="pdf/programme-museomix-2015-FR.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2015.program.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2015.program.title">Le programme: Venez nous visiter et découvrez ce laboratoire en ébullition!</span></a></li>
                 <li><a target="_blank" href="pdf/guide-participant-2015-FR-WEB.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2015.guide.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2015.guide.title">Guide du participant</span></a></li>
                 <li><a target="_blank" href="pdf/flyer-museomix-2015-FR.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2015.flyer.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2015.flyer.title">Flyer: Découvrez un laboratoire vivant au cœur du musée!</span></a></li>
@@ -140,14 +141,6 @@
                 <li><a target="_blank" href="pdf/pv-museomixch-20150504.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.20150504.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.20150504.title">PV du 04.05.2015</span></a></li>
                 <li><a target="_blank" href="pdf/pv-museomixleman-20140325.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.20140325.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.20140325.title">PV du 25.03.2014</span></a></li>
                 <li><a target="_blank" href="pdf/museomixch-talon-inscription.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.society.inscription.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.society.inscription.title">Talon d'inscription</a></li>
-              </ul>
-            </li>
-            
-            <!-- MfK -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span data-i18n="navbar.mfk.title">MfK</span> <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a target="_blank" href="http://www.mfk.ch/" data-i18n="[href]navbar.mfk.home.link"><span class="fa fa-home"></span> <span data-i18n="navbar.mfk.home.title">Accueil</span></a></li>
               </ul>
             </li>
             
@@ -194,9 +187,15 @@
     
     <!-- Information -->
     <div id="information" class="row text-left">
-      <!-- 2015 -->
       <div class="col-md-2"></div>
-      <div class="col-md-8">
+      <div class="col-md-8"></div>
+      <div class="col-md-2"></div>
+    </div>
+    
+    <div id="history" class="row text-left">
+      
+      <!-- 2015 -->
+      <div id="2015" class="col-md-6">
         <h4 data-i18n="2015.title">Berne 2015 - Comment revivre l’expérience</h4>
         <div class="panel panel-default">
           <div class="panel-body lead text-center">
@@ -206,7 +205,6 @@
             <div class="panel-body text-left">
               <ul>
                <li><a target="_blank" href="https://www.youtube.com/watch?v=OeOSYwk5_T4&list=PLD9DiWfqMGOIopidVULSLMJHJjPcu_C6P&index=16" data-i18n="2015.video">Toutes les vidéos</a></li>
-               <li>Explore the prototypes with a multimedia guide: <a target="_blank" href="http://izi.travel/museomix">izi.travel/museomix</a></li>
                <li><a target="_blank" href="http://blog.museomix.ch/" data-i18n="2015.blog">Le blog</a></li>
                <li><span data-i18n="2015.prototype">Les prototypes:</span>
                  <ul>
@@ -218,41 +216,15 @@
                    <li><a target="_blank" href="http://blog.museomix.ch/2015-bern/x-loves-y">x-loves-y</a></li>
                  </ul>
                </li>
+               <li>Explore the prototypes with a multimedia guide: <a target="_blank" href="http://izi.travel/museomix">izi.travel/museomix</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-2"></div>
-    </div>
-    
-    <!-- Content -->
-    <div id="social" class="row text-center">
-      <!-- Social networks -->
-      <div class="col-md-12 text-left">
-        <h4 data-i18n="social.title">Réseaux sociaux</h4>
-        <div class="row text-center">
-          
-          <!-- Twitter -->
-          <div class="col-md-6">
-            <a class="twitter-timeline"  href="https://twitter.com/museomixCH"  data-widget-id="453029332999340032">Tweets by @museomixCH</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-          
-          <!-- Facebook -->
-          <div class="col-md-6">
-            <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FmuseomixCH&amp;width&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:427px; height:590px; background-color: #FFFFFF; margin-bottom: 10px;" allowTransparency="true"></iframe>
-          </div>
-          
-        </div>
-      </div>
       
-    </div>
-    
-    <!-- 2014 -->
-    <div id="2014" class="row text-left">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
+      <!-- 2014 -->
+      <div id="2014" class="col-md-6">
         <h4 data-i18n="2014.title">Genève 2014 - Comment revivre l’expérience</h4>
         <div class="panel panel-default">
           <div class="panel-body lead text-center">
@@ -278,7 +250,30 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3"></div>
+      
+    </div>
+    
+    <!-- Content -->
+    <div id="social" class="row text-center">
+      <!-- Social networks -->
+      <div class="col-md-12 text-left">
+        <h4 data-i18n="social.title">Réseaux sociaux</h4>
+        <div class="row text-center">
+          
+          <!-- Twitter -->
+          <div class="col-md-6">
+            <a class="twitter-timeline"  href="https://twitter.com/museomixCH"  data-widget-id="453029332999340032">Tweets by @museomixCH</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+          
+          <!-- Facebook -->
+          <div class="col-md-6">
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FmuseomixCH&amp;width&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:427px; height:590px; background-color: #FFFFFF; margin-bottom: 10px;" allowTransparency="true"></iframe>
+          </div>
+          
+        </div>
+      </div>
+      
     </div>
     
     <!-- Communicate -->
@@ -363,81 +358,6 @@
         <div class="col-md-12" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.engagement-migros.ch/"><img class="media-object center-block img-responsive" src="resources/engagement-m-f-200px.png" alt="Engagement Migros" data-i18n="[src]partners.em.image"></a></div>
       </div>
       <div class="col-md-4"></div>
-      </div>
-    </div>
-    
-    <!-- Partners -->
-    <div id="partners-page" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only" data-i18n="partners-page.close">Fermer</span></button>
-            <h4 class="modal-title">&nbsp;</h4>
-          </div>
-          <div class="modal-body">
-            <!-- Organizers -->
-            <h5 data-i18n="partners-page.organisers.title">Organisateurs</h5>
-            <div class="row text-center">
-              <div class="col-md-5 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.mfk.ch/"><img class="media-object center-block img-responsive" src="resources/partners/mfk.png" alt="Museum für Kommunikation"></a></div>
-              <div class="col-md-2"></div>
-              <div class="col-md-5 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.museomix.ch"><img class="media-object center-block img-responsive" src="resources/partners/mxch.png" alt="Museomix CH"></a></div>
-            </div>
-            <hr>
-            
-            <!-- Sponsors -->
-            <h5 data-i18n="partners-page.sponsors.title">Avec le soutien de</h5>
-            <div class="row text-center">
-              <div class="col-md-3"></div>
-              <div class="col-md-6 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.engagement-migros.ch/fr/" data-i18n="[href]partners-page.sponsors.em.link"><img class="media-object center-block img-responsive" src="resources/partners/engagement-m-f.png" alt="Engagement Migros" data-i18n="[src]partners-page.sponsors.em.image"></a></div>
-              <div class="col-md-3"></div>
-            </div>
-            <hr>
-            
-            <!-- Partners -->
-            <h5 data-i18n="partners-page.partners.title">Partenaires</h5>
-            <div class="row text-center">
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.youthhostel.ch/fr/" data-i18n="[href]partners-page.partners.ajs.link"><img class="media-object center-block img-responsive" src="resources/partners/ajs-f.png" alt="Schweizer Jugendherbergen" data-i18n="[src]partners-page.partners.ajs.image"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.troteclaser.com/fr-fr-CH/" data-i18n="[href]partners-page.partners.trotec.link"><img class="media-object center-block img-responsive" src="resources/partners/trotec.png" alt="Trotec"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="https://izi.travel/fr" data-i18n="[href]partners-page.partners.izi-travel.link"><img class="media-object center-block img-responsive" src="resources/partners/izi-travel.png" alt="izi.TRAVEL"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.newsroom-communication.com/"><img class="media-object center-block img-responsive" src="resources/partners/newsroom.png" alt="Newsroom"></a></div>
-            </div>
-            <div class="row"><div class="col-md-3">&nbsp;</div></div>
-            <div class="row text-center">
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://fablab-fribourg.ch/"><img class="media-object center-block img-responsive" src="resources/partners/fablab-fribourg.png" alt="FabLab Fribourg"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://fablab-neuch.ch/"><img class="media-object center-block img-responsive" src="resources/partners/fablab-neuch.png" alt="FabLab Neuchâtel"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.fablab-lacote.ch/"><img class="media-object center-block img-responsive" src="resources/partners/fablab-la-cote.png" alt="FabLab La Côte"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.fablab-chene20.ch/"><img class="media-object center-block img-responsive" src="resources/partners/fablab-chene20.png" alt="FabLab Chêne 20"></a></div>
-            </div>
-            <div class="row"><div class="col-md-3">&nbsp;</div></div>
-            <div class="row text-center">
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.oblong.ch/"><img class="media-object center-block img-responsive" src="resources/partners/oblong.png" alt="Oblong"></a></div>
-              <div class="col-xs-3 col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.blasercafe.ch/"><img class="media-object center-block img-responsive" src="resources/partners/blaser.png" alt="Blaser Café"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.hesge.ch/head/"><img class="media-object center-block img-responsive" src="resources/partners/head.png" alt="HEAD Genève"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://estimote.com/"><img class="media-object center-block img-responsive" src="resources/partners/estimote.png" alt="Estimote"></a></div>
-            </div>
-            <div class="row"><div class="col-md-3">&nbsp;</div></div>
-            <div class="row text-center">
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.kaospilots.ch/"><img class="media-object center-block img-responsive" src="resources/partners/kp.png" alt="KAOSPILOT"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://network4events.com/"><img class="media-object center-block img-responsive" src="resources/partners/n4e.png" alt="network4events"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.rezoscience.ch/"><img class="media-object center-block img-responsive" src="resources/partners/rezoscience.png" alt="Réseau romand Science et Cité"></a></div>
-              <div class="col-md-3" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.alpinesmuseum.ch/fr/restaurant" data-i18n="[href]partners-page.partners.las-alps.link"><img class="media-object center-block img-responsive" src="resources/partners/las-alps.png" alt="restaurant las alps"></a></div>
-            </div>
-            <hr>
-            
-            <!-- Partners Museomix global -->
-            <h5 data-i18n="partners-page.global.title">Partenaires Museomix Global</h5>
-            <div class="row text-center">
-              <div class="col-md-3 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://mailchimp.com/"><img class="media-object center-block img-responsive" src="resources/partners/mailchimp.png" alt="MailChimp"></a></div>
-              <div class="col-md-3 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.culturecommunication.gouv.fr/"><img class="media-object center-block img-responsive" src="resources/partners/rf.png" alt="Ministère de la Culture et de la Communication"></a></div>
-              <div class="col-md-3 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="http://www.creative-museum.eu/"><img class="media-object center-block img-responsive" src="resources/partners/cm.png" alt="Creative Museums"></a></div>
-              <div class="col-md-3 text-center" style="padding-top: 5px; padding-bottom: 5px;"><a target="_blank" href="https://www.iilyo.com/"><img class="media-object center-block img-responsive" src="resources/partners/iilyo.png" alt="iilyo"></a></div>
-            </div>
-            
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal" data-i18n="partners-page.close">Fermer</button>
-          </div>
-        </div>
       </div>
     </div>
     
