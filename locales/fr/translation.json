@@ -26,6 +26,12 @@
       "title": "Documents",
       "mediarelease": "Communiqué de presse",
       "media": "Visuels pour la presse",
+      "2016": {
+        "call": {
+          "title": "Appel à Musées 2016 et 2017 pour participer à Museomix",
+          "link": "pdf/appel-a-projet-museomix-2016.pdf"
+        }
+      },
       "2015": {
         "title": "Museomix 2015",
         "program": {
@@ -156,6 +162,13 @@
   "main": "Museomix 2016 aura lieu du 11 au 13 novembre",
   "social": {
     "title": "Réseaux sociaux"
+  },
+  "call": {
+    "text": "Nous sommes actuellement à la recherche d'un musée en Suisse alémanique pour 2016:",
+    "document": {
+      "title": "Appel à Musées 2016 et 2017 pour participer à Museomix",
+      "link": "pdf/appel-a-projet-museomix-2016.pdf"
+    }
   },
   "2014": {
     "title": "Genève 2014 - Comment revivre l’expérience",

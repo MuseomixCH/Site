@@ -26,6 +26,12 @@
       "title": "Dokumente",
       "mediarelease": "Medienmitteilung",
       "media": "Pressebilder",
+      "2016": {
+        "call": {
+          "title": "Ausschreibung 2016 für die Teilnahme als Museum an Museomix",
+          "link": "pdf/ausschreibung-museomix-2016.pdf"
+        }
+      },
       "2015": {
         "title": "Museomix 2015",
         "program": {
@@ -156,6 +162,13 @@
   "main": "Vom 11.-13. November 2016 fand Museomix",
   "social": {
     "title": "Soziale Netzwerke"
+  },
+  "call": {
+    "text": "",
+    "document": {
+      "title": "Ausschreibung 2016 für die Teilnahme als Museum an Museomix",
+      "link": "pdf/ausschreibung-museomix-2016.pdf"
+    }
   },
   "2014": {
     "title": "Genf 2014 - Das Ereignis nochmals erleben",

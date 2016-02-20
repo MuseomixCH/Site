@@ -26,6 +26,12 @@
       "title": "Documenti",
       "mediarelease": "Comunicato stampa",
       "media": "Fotografie ad uso stampa",
+      "2016": {
+        "call": {
+          "title": "Invito 2016 e 2017 ai musei per partecipare a Museomix",
+          "link": "pdf/appel-a-projet-museomix-2016.pdf"
+        }
+      },
       "2015": {
         "title": "Museomix 2015",
         "program": {
@@ -156,6 +162,13 @@
   "main": "Museomix 2016 avrà luogo dal 11 al 13 novembre",
   "social": {
     "title": "Social media"
+  },
+  "call": {
+    "text": "Stiamo cercando un museo in Svizzera tedesca per il 2016:",
+    "document": {
+      "title": "Invito 2016 e 2017 ai musei per partecipare a Museomix",
+      "link": "pdf/appel-a-projet-museomix-2016.pdf"
+    }
   },
   "2014": {
     "title": "Ginevra 2014 - Come rivivere l'esperienza",
