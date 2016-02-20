@@ -17,6 +17,7 @@
   "navbar": {
     "information": "Information",
     "social": "Soziale Netzwerke",
+    "2015": "2015",
     "2014": "2014",
     "contact": {
       "title": "Kontakt"
@@ -26,6 +27,7 @@
       "mediarelease": "Medienmitteilung",
       "media": "Pressebilder",
       "2015": {
+        "title": "Museomix 2015",
         "program": {
           "title": "Das Programm: Besuchen Sie uns vor Ort!",
           "link": "pdf/programm-museomix-2015-DE.pdf"

@@ -17,6 +17,7 @@
   "navbar": {
     "information": "Informations",
     "social": "Réseaux sociaux",
+    "2015": "2015",
     "2014": "2014",
     "contact": {
       "title": "Contacts"
@@ -26,6 +27,7 @@
       "mediarelease": "Communiqué de presse",
       "media": "Visuels pour la presse",
       "2015": {
+        "title": "Museomix 2015",
         "program": {
           "title": "Le programme: Venez nous visiter et découvrez ce laboratoire en ébullition!",
           "link": "pdf/programme-museomix-2015-FR.pdf"

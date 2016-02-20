@@ -74,6 +74,7 @@
             </li>
             <li><a href="#information" data-i18n="navbar.information">Informations</a></li>
             <li><a href="#social" data-i18n="navbar.social">Réseaux sociaux</a></li>
+            <li><a href="#2015" data-i18n="navbar.2015">2015</a></li>
             <li><a href="#2014" data-i18n="navbar.2014">2014</a></li>
           </ul>
           
@@ -101,6 +102,7 @@
               <ul class="dropdown-menu">
                 <li><a target="_blank" href="pdf/offre-coordinateur-20160204.pdf" style="padding-left: 25px;"><span class="fa fa-file-text-o"></span> Soyez le coordinateur de l’événement 2016 en Suisse Romande</a></li>
                 <li class="divider"></li>
+                <li><a target="#" data-i18n="navbar.documents.2015.title">Museomix 2015</a></li>
                 <li><a target="_blank" href="pdf/programme-museomix-2015-FR.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2015.program.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2015.program.title">Le programme: Venez nous visiter et découvrez ce laboratoire en ébullition!</span></a></li>
                 <li><a target="_blank" href="pdf/guide-participant-2015-FR-WEB.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2015.guide.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2015.guide.title">Guide du participant</span></a></li>
                 <li><a target="_blank" href="pdf/flyer-museomix-2015-FR.pdf" style="padding-left: 25px;" data-i18n="[href]navbar.documents.2015.flyer.link"><span class="fa fa-file-text-o"></span> <span data-i18n="navbar.documents.2015.flyer.title">Flyer: Découvrez un laboratoire vivant au cœur du musée!</span></a></li>
@@ -185,9 +187,15 @@
     
     <!-- Information -->
     <div id="information" class="row text-left">
-      <!-- 2015 -->
       <div class="col-md-2"></div>
-      <div class="col-md-8">
+      <div class="col-md-8"></div>
+      <div class="col-md-2"></div>
+    </div>
+    
+    <div id="history" class="row text-left">
+      
+      <!-- 2015 -->
+      <div id="2015" class="col-md-6">
         <h4 data-i18n="2015.title">Berne 2015 - Comment revivre l’expérience</h4>
         <div class="panel panel-default">
           <div class="panel-body lead text-center">
@@ -197,7 +205,6 @@
             <div class="panel-body text-left">
               <ul>
                <li><a target="_blank" href="https://www.youtube.com/watch?v=OeOSYwk5_T4&list=PLD9DiWfqMGOIopidVULSLMJHJjPcu_C6P&index=16" data-i18n="2015.video">Toutes les vidéos</a></li>
-               <li>Explore the prototypes with a multimedia guide: <a target="_blank" href="http://izi.travel/museomix">izi.travel/museomix</a></li>
                <li><a target="_blank" href="http://blog.museomix.ch/" data-i18n="2015.blog">Le blog</a></li>
                <li><span data-i18n="2015.prototype">Les prototypes:</span>
                  <ul>
@@ -209,41 +216,15 @@
                    <li><a target="_blank" href="http://blog.museomix.ch/2015-bern/x-loves-y">x-loves-y</a></li>
                  </ul>
                </li>
+               <li>Explore the prototypes with a multimedia guide: <a target="_blank" href="http://izi.travel/museomix">izi.travel/museomix</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-2"></div>
-    </div>
-    
-    <!-- Content -->
-    <div id="social" class="row text-center">
-      <!-- Social networks -->
-      <div class="col-md-12 text-left">
-        <h4 data-i18n="social.title">Réseaux sociaux</h4>
-        <div class="row text-center">
-          
-          <!-- Twitter -->
-          <div class="col-md-6">
-            <a class="twitter-timeline"  href="https://twitter.com/museomixCH"  data-widget-id="453029332999340032">Tweets by @museomixCH</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-          
-          <!-- Facebook -->
-          <div class="col-md-6">
-            <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FmuseomixCH&amp;width&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:427px; height:590px; background-color: #FFFFFF; margin-bottom: 10px;" allowTransparency="true"></iframe>
-          </div>
-          
-        </div>
-      </div>
       
-    </div>
-    
-    <!-- 2014 -->
-    <div id="2014" class="row text-left">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
+      <!-- 2014 -->
+      <div id="2014" class="col-md-6">
         <h4 data-i18n="2014.title">Genève 2014 - Comment revivre l’expérience</h4>
         <div class="panel panel-default">
           <div class="panel-body lead text-center">
@@ -269,7 +250,30 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3"></div>
+      
+    </div>
+    
+    <!-- Content -->
+    <div id="social" class="row text-center">
+      <!-- Social networks -->
+      <div class="col-md-12 text-left">
+        <h4 data-i18n="social.title">Réseaux sociaux</h4>
+        <div class="row text-center">
+          
+          <!-- Twitter -->
+          <div class="col-md-6">
+            <a class="twitter-timeline"  href="https://twitter.com/museomixCH"  data-widget-id="453029332999340032">Tweets by @museomixCH</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+          
+          <!-- Facebook -->
+          <div class="col-md-6">
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FmuseomixCH&amp;width&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:427px; height:590px; background-color: #FFFFFF; margin-bottom: 10px;" allowTransparency="true"></iframe>
+          </div>
+          
+        </div>
+      </div>
+      
     </div>
     
     <!-- Communicate -->
